@@ -13,7 +13,7 @@
   "files": {
     "ol": {
       "scripts": "spatialcalculator.ol.min.js",
-      "styles": "spatialcalculator.min.css"
+      "styles": "spatialcalculator.ol.min.css"
     }
   },
   "metadata": {
