@@ -10,6 +10,12 @@
     "possibleValues": ["TL", "TR", "BL", "BR"],
     "position": 0
   }],
+  "files": {
+    "ol": {
+      "scripts": "spatialcalculator.ol.min.js",
+      "styles": "spatialcalculator.min.css"
+    }
+  },
   "metadata": {
     "name": "SpatialCalculator",
     "description": "Description of the plugin",
