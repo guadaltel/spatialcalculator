@@ -1,0 +1,24 @@
+{
+  "url": {
+    "name": "SpatialCalculator",
+    "separator": "*"
+  },
+  "constructor": "M.plugin.SpatialCalculator",
+  "parameters": [{
+    "type": "enum",
+    "name": "position",
+    "possibleValues": ["TL", "TR", "BL", "BR"],
+    "position": 0
+  }],
+  "metadata": {
+    "name": "SpatialCalculator",
+    "description": "Description of the plugin",
+    "text": "A full text about plugin",
+    "version": "1.0.0",
+    "date": "",
+    "author": "",
+    "org": "",
+    "tags": "mapea,plugin",
+    "icon": "./facade/assets/icons/icons.svg"
+  }
+}
