@@ -18,12 +18,12 @@
   },
   "metadata": {
     "name": "SpatialCalculator",
-    "description": "Description of the plugin",
-    "text": "A full text about plugin",
+    "description": "Cambio de coordenadas",
+    "text": "Cambia unas coordenadas entre sistemas de referencia (también acepta coordenadas en lat lon).",
     "version": "1.0.0",
-    "date": "",
+    "date": "Jun 26, 2019",
     "author": "",
-    "org": "",
+    "org": "Instituto de Estadística y Cartografía",
     "tags": "mapea,plugin",
     "icon": "./facade/assets/icons/icons.svg"
   }
