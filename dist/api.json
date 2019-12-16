@@ -4,34 +4,12 @@
     "separator": "*"
   },
   "constructor": "M.plugin.SpatialCalculator",
-  "parameters": [
-    {
-      "type": "enum",
-      "name": "position",
-      "possibleValues": [
-        "TL",
-        "TR",
-        "BL",
-        "BR"
-      ],
-      "position": 0
-    },
-    {
-      "type": "simple",
-      "name": "classname",
-      "position": 1
-    },
-    {
-      "type": "simple",
-      "name": "collapsible",
-      "position": 2
-    },
-    {
-      "type": "simple",
-      "name": "tooltip",
-      "position": 3
-    }
-  ],
+  "parameters": [{
+    "type": "enum",
+    "name": "position",
+    "possibleValues": ["TL", "TR", "BL", "BR"],
+    "position": 0
+  }],
   "files": {
     "ol": {
       "scripts": "spatialcalculator.ol.min.js",

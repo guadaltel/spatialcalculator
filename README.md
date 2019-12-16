@@ -25,9 +25,6 @@ Transforma coordenadas de un sistema de referencia a otro aceptando también sis
   - 'BL':bottom left
   - 'BR':bottom right
 
-- **classname**. campo que indica la clase principal del html del plugin.
-
-- **tooltip**. campo que indica el texto que debe llevar el tooltip del plugin.
 
 ## Eventos
 
@@ -42,9 +39,7 @@ Transforma coordenadas de un sistema de referencia a otro aceptando también sis
   });
 
   const mp = new M.plugin.SpatialCalculator({
-    position: 'TL',
-    tooltip: 'Calculo de coordenadas',
-    classname: 'm-spatialcalculator', 
+    position: 'TL',    
   });
 
    map.addPlugin(mp);
@@ -55,7 +50,7 @@ const map = M.map({
     container: 'map'
   });
 
-const mp = new SpatialCalculator({});
+const mp = new M.plugin.SpatialCalculator();
 
 map.addPlugin(mp);
 ```
